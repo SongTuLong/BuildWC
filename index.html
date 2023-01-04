@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup 2022</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBEPDw8PDw8QDw8PDw8RDxAPEBEPEQ8QGBQZGRgUGBgcIS4lHB4tJBgYNEYmKy8xNTZDGiU9QD80Py46NjEBDAwMEA8QHhISHDQkISs0NzQ0NDQ0ND00NDQxMTQ3Nj80MTQ2NjQxNDQ0NDQ0NDQxNDU0NDE0NDQ0NDQ0NDE0NP/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEBAAMBAQEBAAAAAAAAAAAAAQUGBwIEAwj/xABBEAACAgIABQEGAwQGCAcAAAABAgADBBEFBhIhMRMHIkFRYXEUMoEjQpGhQ1KCkrHBFTNyc6Kys9E0NlRidNPw/8QAGgEBAQEBAQEBAAAAAAAAAAAAAAECBQQDBv/EACkRAQEAAgEEAAUDBQAAAAAAAAABAhEDBBIhMRNBUWGBFCJxBZGhsfH/2gAMAwEAAhEDEQA/ANHkiJh+sJIiEIiSAkiSEWSJJpkkifRg4NuTYtOPW1tjeFUeBvXUx8KO/k9oZtkm6+aQHZ0O5PgDyT9p2Pg3IuHhVh8sV5FoXbtaOutT/VSs9j9yCft4n0X8bCA14tK0oOwKKqMR+gAH6Q5+fX4y6xm3I24Nlheo4WUF1vqONcF1899Opj/8p2DFy3Lqob0ix9+xw1rE/ffYTO53K2JmIDlolrEDVyL0Wn5adT3H0OxDOP8AUPP7p/ZwKSdM477NqkVji3XLYdlVyGVkPyUlVBX7nc5rfU1bujqUdGZHRhoqwOiDD18fNjyeq8TzEQ3SDEkISRJCEkRDNpJEQhE8xAykkRMvcREkBIYkmkIiSGSSJIR+2LjPdYlNa9VljqiD5sTrv8h9Z1rAro4NijvrugtuCMzWWMekHtsgbPb5D6k71P2Z4AfIvyXHu41YVCR4ezYLfoqv/emUbmHKuD349aNjhq1VVr6j6jOFWp2LqQx2h2gIBYDvDn9T3cmXbj6ntsPELHsZUBJ+J+pmE47xX8Ifw+NUt2SP9Y7gtXSf6uv33/kPjs7A+nP46uPgtxBFHW6Vrjo3fVzg638+kBj9en6zl+RxG+1ut7nZvoxQfoF0BDx8XSZcm7vWvDaMfP4mX63tP29OhR9tKomWPMOetZrDLU2/eZayrj6AE6U/XW/kRNQ4Xx56nC3lraiQG7/tEH9ZSfzfZvP08zf3pWytV2rgor02L4dGG1YfQ/L4Q+fLw5cV8+nycG4zch1bZZchPvra7WMPqpY7B/lPg9pPCFK18RpAKv013lfj29yw/oOk/ZZ6arofx9DM9w6tcrGycFz7tlbdBP7vV8R9m6TFTg5LhnK49BldCpKsOllJVgfIYHRE8w7WySJICSIhm1NxEhhFnmJIZIiIGUiJJl0CSJJpCIkhmkkSQhJEkDqXsqUfhMnsO+Vo/UCtO38zP3yOVqze1CZwVTWjLjEbuqqRyVKFXAOidBmViBoT5fZRcDj5Vf7yXo5H/tdOkf8AIZvJxa+v1uhPV6PT9TpHqdG99PV51v4Sacbl5cuPmy1dOZe0msUV4GNWOmpBcQvn8oRV39gW/vGaHOke1fGJTEu+CPbW33dVZf8Akac2le7pbvin5J0rk2z1eHU7JJoyL6e/9QgWAf8AH/Kc0M6PySnRw1Sf6TLusH2CIn+KmHy63Xw/y+riKjrM+jl59ZS/VHH+B/yny5bbO59nLSdWSWPhUbZ+WyB/3lcmOZ8xKFz85R4GZkgfb1GmNM+jiOSLsi+4eLbrbB9nct/nPmkd3HxjCSJDBaskSGEWeTEkJaQYMkMm4iIGUkgyTLoLJEk0loZIkMMkkRAGSIhltfs34j6PEFqY6TKRqj411j3kP32CP7c7IBP5xqtZHWxGKvW6ujDyrqdq36ECf0HwLiKZuLRkpoC1AWUfuOOzp+jAw5fXYaymX1YvnPhZysDIrQbsVRZWB5Lp73SPqRsf2pwzc/pR1nD+fOCfgc5+hdUZHVbT8hs++n6E/wAGWDouT3hf5jWiZ1fGxvwuNi45GmqoUuPla/vuP4sZoHKfDvxWdRWw3Wjerd416Se8QfoTpf7U6HmWl3dz+8xMQ67P1j+WPvPefRk5H4LheXk709q+jT8+t9oCPttz/Zn549DW2KijZZgomD9pXEVN1XDqjuvDUGzXhr2Udv7Kn+LsPhFeXgw7s5GkyGIh17SSJDCJJLJDJESQhJEQmyJNxCbZSIkh0NkkSQhJEQJERDNJIkhCb/7KuPele2DY3uZBL0b8Leq+8v8AaUfxQfOc+n6VWsjI6MUdHV0YeUdTtWH1BAh8eXCZ4XGv6X1Nc504AOIYjVgD1k/aY7HtqwD8pPyYdv1B+E+7lbjS8QxK710rnaXIP6O9ddS/T4EfRhMtYuxDizuwy+8cs5S4U2FhWZFqlMjM91UYdLpQpOgR5BY7OvkFn1XHwo8/H/ObBzJjttLdkqo6SPk37p+3/YfOYrhmE1rjt3YgCE5M7nlbXsZKcOw7s+wAso9PGRv6S9h7o+3z+gb5Tj11rOz2Oxd3dndj5Z2O2Y/Ukmbd7R+NDIylxKW3jYPUg14e/wDfb661r9G+c02HR6bj7cd33SInkw9KzzEkMkRJCEkSQlWSJIZ2REQMpJEkOgSREBJEQzUMRJCE8xEMk/XFKdY609QHsENnpqWPYdTfBf1H3E/KQwzfLpfKPFHxM2sXMjV8QVRcaUs9Gm4Hpos6z29/fTsefdPcEE9T3sf/ALzODct2XZ+RRjXWMcWkG/JG2Jsqr97Tkkk7PSoHgdQ0J2jgXFFzMcWqArB3rsUeFcH4fQgg/rJHJ6mduU+r9cykOrIw2rAgiarzJxD/AEVg23IdX2fsMU/HrYHqsH+yuz99D4z6eYctsJ7HrNjhxXfZSrKoVUYdboNbOxrq1sDtsHqM0vnNHz8JM1bxauM7lV7K3p2aLaQD93pT4k9n2fd7NnFw7st9OfySySumTzJEJaREkMkkskJskiSGaRIZIR6ieYgZSSIh0SSIhkkiSEJ5iIZtIMGSEJIkJhG9cp4Zq4ddfrT5toqT/c1d2I+7n/gm18m3/h7WqY6W8aH+2gJB/h1fynqvhwprxsb4YuOiNrsDZrqdv1YtPicGuxHHlGVh+h3DicuXdna3bMw6bHV3PS2gh98J1j3gqn49ixI1o7mg8aPpLVXbh1Y64z2Pjlum1Hx2Y1s1igfl2y9Wu49RWH5SDsHMeI7suSooapMbIpuN9i1ilWKH1UJrf3vdI7g/DQ77nyY99OdUiLUWetbmxmc3NXYzo7NW/WiBq2GxoAjQHjtuV9+LxJfc/wBOQcSxGoudGRqwGfoViGPSGZfzDs2ipGx51Pjm7814F+TQM41vWlVVatS6OLK/eZW2CAensvvHQJDfOaPEe6XZESShJLPMIskSQyRIZIQiJJUIiIRlJIiR0UMRJuEJ5iIZIMSQhIYkhCZHl3H9bPwayNq+XjqwPxT1F6v5bmNmV5WvFfEsFz4GXj7PyBcAn+cPnyX9tdmZSzWOfLMx/iZjsnH2x+82BcbpYgj5z3/o4FgT+TyT9B5hxX64yAr0OAwK6ZWGwRruCPjPHF8V761rrtNLdalrF31rX4foPwcqSAfhvfmRcytRc3WjGlS9qqylkGifeG+35T514mN4bzNTk5V1IYqEXHVVZfe9Zi/WpI2Ox6F3vW9aJ3DeOOXmyemF4rwa2x3pdDZU6slKheqlB6ihGL9QYuENjFmPcu476AbjJBHY9iOxHyPxn9MgjqH3G/tP5pvsDu7jw7sw+xJMPZ0/JctyvziSSHoqyRJDJETzCERJCUkiJWSIiBlJIkkdEnmep5hkgwZIQkiSE2SREM0jZHcEgjwR2IPzkiEd+5L5kq4pjqSVGXWqjIq8MGA16ij4q38vEz+YH9NwjKjdLdLupdEOuxZQRsfTYn8y4971OtlTvXYh2r1syOp8bDDuJleIc1cQyaxTkZlllYIPSehQ2jsdRUAt+sPBl0t7t43w39+L14WI79bV5JJoRqWS1MZribGchh7w2ja3skKBsHqafdw2zFxUfPON0DKIur6XZ7GCq7M7B2CqD1MQF89Y7bGhy/G5huqXSBQxILP3ZmAXp7lt9+w97zoa3oncyOZMq07d+rTBwGax0Dg7DdLMQSPqDr4akbvHda+vt07mvmhcbEtKtrIyEZMdP3l6h0s/0Cgn9dCcYn7ZWTZa5e12dz5Zzs/b6D6T8TK3xccwmiSJIb2RE8whEkQlpJESskRJDJERAyc8xEjo7IgyQhJNo5A4BTxPNsxsg2Ki4r2g1MFbqWytQCSD205mX49wbl/D/E1fis18uhXAoO9NaF2qlvS6dE677h8MufGZdurb9nP5JvPMPKOPi8ExOI1tcb768RmV3U1g2V9TaAUEd/rM9xnkfguBXVdmZOZUlpCKdh9t09WtJWSOwMr53qcPv/xycxN/4Dynw/iWZl/h78kcNxaEJvZlR3ubuTt00FADb2N9gfBmF575aXhWYtNbO9FlSvU9hBfeyGUkAAkEb8eGEizmxyy7fm1qeZu/FuVcccEwuI4nqPfc9NdwLhk62DI4Ua7ftAB5+My3O/ImHg8OuysZrTbj2Urb12BgA5UEa0NH31P6xtn9RjuT76cykM6rl+zSk34GNTZajPQ9+dazdfQi+moVF0AGZnbW/HST31o/jjct8v5WS/DKMjLXLQ2KLSwIssTfUo2vS2uk+AAdHRhn9RhfW3L5J03gPIWMq8UHEWtLcOsO3oYKGpFIsDBSD3KkHW/jqfNxTlLht/Cr+J8LvvAo6upcj8rdJXqX8oIbRGiCQfH2J+ow3pzuSb3z5ypi8Pw8C/H9Xrydep1uGX/Vhuw0NdzHs95Ww+IY+bfmG4DFKkekwX3Ohmbto7PaF+Lj293yaHE6ZhcmcJ4rVceE5t65FSg+lkjad/Gx0htHx1AnXy+B0ngfAbs3NTBUdFpd1tLDYpCb62bXnWj2+J0PjCTlxu/sw8TpnEuC8ucOs/CZV+bfkLr1XrOxUSAe4UADz494jfefLlcp4B4JmcSx3yHNV1i47uwAsqXJCKzL0juVP0+whj40+lc8km88A5XxsngXEOJWep+IxmyBX0uAnuVoy7XXfux+M2njHIvBMW7ExrrM2u3Oc147K4YdYZF0T0EDZdR3HxlS82MunHYmf505dPCs5sX1PVQottTkdLGtiQAw8dQKsO3nW+29DX4amUs3CIkhSJIhGTiDJI6JJEkI372NHXFLv/gXf9emefaVzGLrsjAXFqq9LJ296aNl4Vewb3e3cg+T4E0jGyrKWL1WPU5UqWrdq2K7B1tSDrsO30nuiq7LvVED333NoDZZ3Y/Mn7eT41sw8t4p8TvrqPOv/lTh3+54d/0ZsXPfHl4diY1jYtWX6lgQJaQAh9MtsbU9+00tfZvxK2lar+IVL7o6MZ7rrEAUaUa8DX0B1NT5p4fxDDsWjPstca6qi1z3VOB2JQsfhvxoEbHzEPNjx45WTe9W10rhHDUp5fsXIyqMC3ixsstvvCqm7u/QFLL3Nan3Qe2z8p+XtD4euZwTHyqr68yzC6erIp0y3JoV2kaJ17wUnuddBnI8jPutVUtvtsRdFUssd1U612BOh2nqnMyOj0K7r/TclfRSx+ly3Yr0A6O9+Nd4fScFmXdvzvbq3sxRc7hD4lh/8LxCiwDz7i213gfqVcfrMlwm5OJ5fMWC53X+Ix9b7jaoK2/g1A/jOT8T4bncKNSWu+M+RWLOiq5lcKCQOvpOt+e2z+kxdWZajMyXWo7kl2SxkZiTv3iDs9/nDN4O63KX36dxo5jqXmTKxbGCg4mPRUWICm5SbOgfUi0/3dfKa/y3yHl4vGvxVvpjEotvtS3rUm1WDhR0+QfeG9gDsdEzlF1rOzM7M7sdszkszH5knzPot4rkunpPlZD1616b32Omvl0k6g+DcfGN9zVdy4Zx1Ll5gzMcpalLH0iQWrtNWKNk6PvKWU+D3Gpr3HsxuNctHKr/AGNmMzNkY9DEUv6bbcEfIKVcA71r4+ZymrLtrVkS2xEffWqu6q+xr3gDo9vnPo4UuVc64mI1xbIJAprsKLYSvfqGwv5Qdk/AQz8DXnbr/PXLuVxLh/DExEVzUqM/U6ppTSAPzHvPl9nHBr8ejjeFagXIARCodWHU+OzKOodvDLNas5I5gSvrV7G0B+yrzj1AD4AdQXt8gftNUwmz7shqKHy2ynbViK9osLJ7p6++x061tvGvhDMx3jcZlNOl8g8sW8EfJ4jxO2nHrXHNQX1Ax95lYkkdt+4oCgknf23qvJPMlNPHrMy4iqnMsygWfQFPrP1qWPwGwAT4G9+J6y/Z1xuxBZanrOB2rfKWyxd+QCzdP8G+E1fC4Fl5GUcKrHc5KluqpgK2Tp/MW6iAo8efmPnBJjd23e2884ezrPuz8jIw1TIoyrWuDerWrIW94hgxGxsnRG+2pmeBcKfI4BxDgytX+OxrrEsr6hrr9UWL3/qtojq8bB+U1e3kvj+HQWqa701BZqsTLfajydIpHV9l2ZgeWuC8R4ha9nD/AFDYhHq5Av8ARKl9nu5IJJ14GzCXzPc8Ogjh7cG5Wzqc4rXflNcEqDKzddiqioCDpjpSx1vQ38pmvaPzOnC3wLPwNGXawyDTZboNjFfT2UPSSN9Q8EflE5jzTylxbHT8RnizIrQaa71zk+mCfDdR6gPHfWprGTmW3dPq22W9O+n1Hd+nfnXUe3gfwhJxzK73t9nH+N38RyWysnpNjAKFQFURR4VQSSB58k+TMXLJK+3rxCSIgIkiDbJyRJI6JJEhhnYZ0L2NIh4jeW16i4jenv5F0DEfXWv4mc+n1cL4lbh315OO/RbU21PkEa0VYfFSCRr6w+XLjcsLI+/m83rxTNbIZ1vTJdlYkhlQNusqfgvT0619J0Xn2lsvC4Fi3EJn5V+MH2BtOqnVzEfIMy9vpPXDOa+E8XbHPEaa8fOpYGp7f9WWHjps8Eb79D9t/PzMVzLy/wARwc+rjFtx4jRj21WO6gJbXQrbK+n+VV0T3Xt3JIHeHjt3ZNas/wAvuy1wOHcQxeEUcHoy3tFAbIyStlm3Yhm95G7AAk6IHkADU/XmZMHhvGeH64djsl9XpqiV11Kl7ZFfTfoLosoB+vfzMfzXzdwx70zMMvbmvWuO1prsRMagsetgGAJsKsygjegT8u+J9o/M+NmZmFk4Nnq/hl2S1diAWLYGUEMASO3whmY5Wzcvq7/luHtE5hwsPKrryeF05tr4wdLbRWSi9bAJ7yk62CfPxnEROsca47y9xj0b82zJx70r6CqpaWVdk9JKoykAk9/PeYv8Fyp/67N/uXf/AFQ3xZdk1Zdvm9nPLmPlJmZ2Yhuowl2tIJ1a4Uu3VryAAO3g9Xfx33TkNsHjFeRY3A8DHqpdErIqpuLuQSwJ9MeB0d/j1T5OX+YeXuHUX49GZe9eQS1i205DE7XpIBFY1sT4eT+deG4V19KtZjYFVaJi9aPbZfYWZrbn6FOmPuDR8BR48Q+Wdyy3dX7Pz5B5doz+DcQVqKGyTk5FNF71Iz1bqrKkN5ABYnz85rnNXFsGl8evggsofEF9VmYgVGyQwResWA9bflfv2/MddjMnyfzXjYPB+J47XGvLvsy3xlFdjbLUIiHqAKj3lPkjxNX5QHD/AMWDxVmXFStmUKLCHtDLpWCAt06LHtrwO/wJvHG7uWW9fRt/spuz7MyzKtyL/wABVTZ+IsyLXalm17o2x11Dzv4AHeurvsnJWZRfkcw8RxlVrDb+y7d2rWslWA8gOyk/XQ+UxXFuK8v5aCm3imauOmhXjU02UY6AdwAiUgHXzbZmp8N5kp4PxO2zhpfI4ey1o63Eq1ydKlm7qNMGLa2P8YfO43Ld1p9eHmZtdOJxkcYN192aK3wja7FgW7oU3rwfy9IADKQfEzPtivbFzsa7FtejIvxHrvelzW71LYpQEr37nf36QPhMBiHgmNljiC5N1tSOL8fhv4d0uS0HqVHsPudKnXgnegO+jv8AbhfHuH8Q4jkZ3HmIAWsYlCrZZSqgt7jBVJbXY99Alm2DvQLrzvXpnfZPk5iLl5+bk2rw1aSOvJsZka0MD1p1H4AMCR5LAdyO3PMzj1/q5Rxr78ajIyr8gV12PUPfYkdQUjehofTU6FxjiXL+d0jJ4txB0TXp1LXbVTWANDprWgKNDtvW5j+Vsvl3Fe+6y65blvtXEsspsyDXQrfs7UX0ioYgb95SR9ISXW7pmOGZd+FyzmNxWywtlLkJhVZLs9zLZUERdN7wHV1Nr4Dv2nHJ0/jWRy7lF77+J8SyrwjdAsFvdtbCLuoKoJ12GhOYSt8XzJIkh9CIkhFiSIRkpIiR0ahlknkwj1PMSQlpM7wjmvMxKnx1t9TGsretse8GysIykHp+K9ifB18wZgjJDGWMy8WEkRASGDJDJETzCERJKlpJEQyREkMkkRASREISRJDJERCJERAyUkskjoIZIkhKREkMkkRCEkSQyREkCREkrJJEQyREkMkkskBJEkMrJEkIREQiREkIsSRAyU8mIkdBIMRCBkiIRJIiGUgxEITzEQiRESspERCBkMRDKSREIGSIhCSIhkkiIEiIhCIiB//Z" type="image/x-icon" />
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- Begin nav -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#wc">WorldCup</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">
+                        More
+                        <i class="nav-arrow-down fas fa-caret-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="https://www.fifa.com/fifaplus/en/articles/cristiano-ronaldo-world-cup-qatar-2022-scoring-record-five-world-cups">Cristiano Ronaldo</a></li>
+                        <li><a href="https://www.fifa.com/fifaplus/en/articles/messi-argentina-world-cup-semi-final-argentina-croatia-qatar-2022-gvardiol">Lionel Messi</a></li>
+                        <li><a href="https://www.fifa.com/fifaplus/en/articles/world-cup-qatar-2022-is-it-the-end-of-the-road-for-neymars-brazil-journey">Jr. Neymar</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+            <!-- End nav -->
+
+            <!-- Search button -->
+            <div class="search-btn">
+                <a href="https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/qatar2022?searchOverlay=1"><i class="search-icon fas fa-search"></i></a>
+            </div>
+
+            <!-- Mobile menu button -->
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">FiFa World Cup 2022</h2>
+                <div class="text-description">Qatar is name A-Rap 1971, 2.931M people and 179.6B USD </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <!-- WC -->
+            <div id="wc" class="content-section">
+                <h2 class="section-heading">World cup 2022</h2>
+                <p class="section-sub-heading">We love World Cup</p>
+                <p class="about-text">Come to Quatar for football. Stay for non-stop electifying experiences, performances and events. Head to out Epic Destinations including the FIFA Fan Festival - where you can feel the football energy in the heart of Doha. Or check out Cultural Discoveries, Endless Adventures and Mega Attractions. You can Live it All at Qatar 2022. A symbol of how music - and football - can unite the world, we invite you to enjoy the first ever FIFA World Cup Official Soundtrack, in celebration of a truly global tournament. Now, I even have my own mini-series - La'eeb from Mascot-verse - all about my epic adventures. Take a look!</p>
+                
+                <!-- Ronaldo -->
+                <div class="members-list">
+                    <div class="col col-third s-col-full mt-32 text-center">
+                        <p class="member-name">Cristiano Ronaldo</p>
+                        <img src="../assets/img/Member/Ronaldo.jpg" alt="Legend CR7" class="member-img">
+                    </div>
+                </div>
+                <!-- Messi -->
+                <div class="members-list">
+                    <div class="col col-third s-col-full mt-32 text-center">
+                        <p class="member-name">Lionel Messi</p>
+                        <img src="./assets/img/Member/Messi.jpg" alt="Legend M10" class="member-img">
+                    </div>
+                </div>
+                <!-- Neymar -->
+                <div class="members-list">
+                    <div class="col col-third s-col-full mt-32 text-center">
+                        <p class="member-name">Jr. Neymar</p>
+                        <img src="./assets/img/Member/Neymar.jpg" alt="HandSome Neymar" class="member-img">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+            </div>
+
+
+            <!-- Tour -->
+            <div id="tour" class="tour-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">TOUR DATES</h2>
+                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                    
+                    <ul class="tickets-list">
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>October <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quanlity">3</span></li>
+                    </ul>
+
+                    <!-- Places -->
+                    <div class="row places-list">
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/Places/place1.jpg" alt="Qatar" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Qatar</h3>
+                                <p class="place-time">Sunday 20 November 2022</p>
+                                <p class="place-desc">World Cup 2022 to be held in Qatar - An unforgettable memory.</p>
+                                <button class="place-buy-btn js-buy-ticket s-full-width">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/Places/place2.jpg" alt="Qatar" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Qatar</h3>
+                                <p class="place-time">Monday 21 November 2022</p>
+                                <p class="place-desc">World Cup 2022 to be held in Qatar - An unforgettable memory.</p>
+                                <button class="place-buy-btn js-buy-ticket s-full-width">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/Places/place3.jpg" alt="Qatar" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Qatar</h3>
+                                <p class="place-time">Tuesday 22 November 2022</p>
+                                <p class="place-desc">World Cup 2022 to be held in Qatar - An unforgettable memory.</p>
+                                <button class="place-buy-btn js-buy-ticket s-full-width">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <!-- <div class="clear"></div> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTACT -->
+            <div id="contact" class="content-section">
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading">Drop a note!</p>
+                
+                <div class="row contact-content">
+                    <div class="col col-half s-col-full contact-info">
+                        <p><i class="fa-solid fa-location-dot"></i>Qatar, A-Rap-Xe-Ut</p>
+                        <p><i class="fa-solid fa-phone"></i>Phone: <a href="tel:+00 686868">+00 686868</a></p>
+                        <p><i class="fa-solid fa-envelope"></i>Email: <a href="mailto:mail@mail.com">mail@mail.com</a></p>
+                    </div>
+                    
+                    <div class="col col-half s-col-full contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half s-col-full">
+                                    <input type="text" name="" required placeholder="Name" id="" class="form-control">
+                                </div>
+                                <div class="col col-half s-col-full s-mt-8">
+                                    <input type="email" name="" required placeholder="Email" id="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" name="" required placeholder="Message" id="" class="form-control">
+                                </div>
+                            </div>
+                            <input class="contact-submit-btn form-submit-btn mt-16 s-full-width" type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Map -->
+            <div class="map-section">
+                <img src="./assets/img/Map/MapQatar.webp" alt="Map">
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <div class="socials-list">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p class="copyright">Powered <a href="">WC</a></p>
+        </div>
+    </div>
+
+        <div class="modal  js-modal">
+            <div class="modal-container js-modal-container">
+                <div class="modal-close js-modal-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div> 
+                <!-- Header -->
+                <header class="modal-header">
+                    <i class="modal-header-bag fa-solid fa-bag-shopping"></i>
+                    Tickets
+                </header>
+                <!-- Body -->
+                <div class="modal-body">
+                    <label for="modal-body-text" class="modal-label">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        Tickets, $15 per person
+                    </label>
+                    <input id="modal-body-text" type="text" class="modal-input" placeholder="How many?">
+
+                    <label for="modal-body-email" class="modal-label">
+                        <i class="fa-solid fa-user"></i>
+                        Send to
+                    </label>
+                    <input id="modal-body-email" type="email" class="modal-input" placeholder="How many?">
+
+                    <button id="buy-tickets">
+                        Pay
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                </div>
+                <!-- Footer -->
+                <footer class="modal-footer">
+                    <p class="modal-help">Need <a href="">help?</a></p>
+                </footer>
+
+            </div>
+        </div>
+
+        <!-- Buy tickets -->
+        <script>
+            const buyBtns = document.querySelectorAll('.js-buy-ticket');
+            const modal = document.querySelector('.js-modal');
+            const modalContainer = document.querySelector('.js-modal-container');
+            const modalClose = document.querySelector('.js-modal-close');
+
+            // Hàm hiện modal mua vé (thêm class open của modal)
+            function showBuyTickets() {
+                modal.classList.add('open')
+            }
+
+            // Hàm ẩn modal mua vé (gỡ bỏ class open của modal)
+            function hideBuyTickets() {
+                modal.classList.remove('open')
+            }
+
+            // Lặp qua từng thẻ button và nghe hành vi click
+            for (const buyBtn of buyBtns) {
+                buyBtn.addEventListener('click', showBuyTickets)
+            }
+
+            // Nghe hành vi click vào button close
+            modalClose.addEventListener('click', hideBuyTickets)
+
+            modal.addEventListener('click', hideBuyTickets)
+
+            modalContainer.addEventListener('click', function(event) {
+                event.stopPropagation()
+            })
+        </script>
+
+        <!-- Mobile Header -->
+        <script>
+            var header = document.getElementById('header');
+            var mobileMenu = document.getElementById('mobile-menu');
+            var headerHeight = header.clientHeight;
+
+            // Open/Close mobile menu
+            mobileMenu.onclick = function() {
+                var isClosed = header.clientHeight === headerHeight;
+                if(isClosed) {
+                    header.style.height = 'auto';
+                } else {
+                    header.style.height = null;
+                }
+                // console.log(header.clientHeight);
+            }
+
+            // Tự động đóng khi chọn Menu
+            var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+            for (var i = 0; i < menuItems.length; i++) {
+                var menuItem = menuItems[i];
+                
+                menuItem.onclick = function(event) {
+                    var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                    if (isParentMenu) {
+                        event.preventDefault();
+                    } else {
+                        header.style.height = null;
+                    }
+                }
+            }
+
+        </script>
+</body>
+</html>
